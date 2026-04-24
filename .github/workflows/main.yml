@@ -5,8 +5,7 @@ name: Run Python Program
 on:
   push:
       branches:
-        -main
-
+      - main
 jobs:
     streamlit-job:
         runs-on: ubuntu-latest
