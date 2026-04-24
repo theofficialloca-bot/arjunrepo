@@ -8,12 +8,12 @@ on:
         -main
 
 jobs:
-    ci-pipeline:
+    streamlit-job:
         runs-on: ubuntu-latest
 
         steps:
         - name: checkout code
           uses: actions/checkout@v2
 
-        - name: print welcome message 
+        - name: setup python 
           run: echo 'welcome to github action'
